@@ -1,3 +1,8 @@
+#docker build . -t wrappingpaper
+#docker images
+#docker run -it -d -p 80:5000 wrappingpaper
+#docker ps
+
 FROM microsoft/dotnet:latest
 
 COPY . /app
